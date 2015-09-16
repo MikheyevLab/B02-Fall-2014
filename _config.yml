@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               B02 Biology
 tagline:             Fall 2015
-url:                 http://mikheyevlab.github.io/B02-Fall-2015
+url:                 http://mikheyevlab.github.io/B02-Fall-2014
 paginate:            1
-baseurl:             /B02-Fall-2015
+baseurl:             /B02-Fall-2014
 
 # Assets
 #
