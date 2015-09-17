@@ -66,7 +66,7 @@ well you say things, but what you say, and whether you say it.
 Attendance and punctuality are integral to class participation. Your
 grade will be severely penalized for lateness and for missing classes,
 without prior excuse from the instructor. Each missed class will
-discount your final participation grade, up to the total, by 4*^x^*^-1^
+discount your final participation grade, up to the total, by 4<sup>*x*-1</sup> 
 percent, where *x* is the number of missed classes. Arriving in class
 more than 15 minutes late counts as a missed class, not being there at
 the start counts as half a missed class. The system has a built-in

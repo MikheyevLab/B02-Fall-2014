@@ -18,8 +18,13 @@ sass:
   sass_dir:          _sass
   style:            :compressed
 
+collections:
+  slides:
+    output: true
+
 pages_list:
   Schedule: '/schedule'
+  Slides: '/slides'
   Syllabus: '/syllabus'
 
  
