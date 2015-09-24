@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Homework 2"
+date: "2015-09-24"
+---
+
+# due next Thursday (October 1st)
+
+- Do the new set of Rosalind problems. Some of them are quite a bit harder, so start early.
+- In addition, for extra credit, carry out the following simulation:
+  - Imagine that you have a finite population with or organisms with a really long genome
+  - Population size is constant
+  - Genomes are copied into the next generation with replacement (*i.e.*, more than one offspring possible)
+  - Mutations are introduced in each replication event with some probability *u*
+  - **Question**: What is the probability that a new mutation will become fixed (become the only allele) in this population as a function of *u* as time goes to infinity?
+  - Send code and answer to Sasha.
+
+## Don't forget to post your solutions when you solved a problem on Rosalind
+
+- After submit your correct response, you'll see a "Solutions" button. Click it and write your code.
+- Make sure it is legible when you've submitted it.
+- You can use \`\`\` before and after code blocks to turn on syntax highlighting.
+
+![](images/upload_solutions.jpg)
