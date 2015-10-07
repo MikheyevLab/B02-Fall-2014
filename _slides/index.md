@@ -13,3 +13,4 @@ Note: re-drawing some of the images may not work from source code.
 - Lecture 4: Probability and statistical distributions [html](04. Probability.slides.html) [ipynb](04. Probability.ipynb)
 - Lecture 5: Selection [pdf](05. Selection.pdf)
 - Lecture 6: Population structure [pdf](06. population structure.pdf)
+- Lecture 7: Phylogenetic inference [html](07. Phylogenetic inference.slides.html) [ipynb](07. Phylogenetic inference.ipynb)
