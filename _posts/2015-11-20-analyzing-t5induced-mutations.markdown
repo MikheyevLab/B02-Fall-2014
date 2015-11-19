@@ -50,6 +50,7 @@ The data set contains three folders. One for data, one for reference files (geno
     ├── fb.sh
     └── map.sh
 ```
+
 # Identifying resistant mutants
 
 For this exercise, we'll use the [bowtie2](https://github.com/BenLangmead/bowtie2) aligner, and the [FreeBayes](https://github.com/ekg/freebayes) variant calling package. We will use [VCFTools](http://vcftools.sourceforge.net) to filter the results. The short pipeline below can be easily modified for use with other packages, of which ther are quite a range, and you are welcome to try some other ones for homework.
