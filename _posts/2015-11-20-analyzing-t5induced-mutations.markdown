@@ -7,6 +7,7 @@ date: "2015-11-20"
 # Download data
 
 You can get a tar file of the data [here](https://dl.dropboxusercontent.com/u/5275622/t5.full.tar). It is almost 4Gb in size and may take a bit of time. Alternatively, if you have access to Sango, you can download it from ```/scratch/sasha/t5.tar```. I also have these data on a flash drive. There is a [reduced version without the fastq files](https://dl.dropboxusercontent.com/u/5275622/t5.tar), which you should try downloading first (3G).
+- **CORRECTION:** The tar file has an incorrect gff file. Get the correct version [here](https://dl.dropboxusercontent.com/u/5275622/NC_012967.gff).
 
 The data set contains three folders. One for data, one for reference files (genome assembly and annotation), and one for source code.
 
