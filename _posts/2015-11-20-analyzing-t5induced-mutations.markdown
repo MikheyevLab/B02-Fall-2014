@@ -67,7 +67,7 @@ You can also check to see the mapping percentages using ```samtools flagstat [fi
 There we use FreeBayes on a list of bams produced by our previous analysis. I also don't recommend running this command, as it takes a while to run. The output file ```../data/var/raw.vcf``` has been pre-computed.
 
 ```
-freebayes --ploidy 1 --fasta-reference ../ref/NC_012967.fasta --bam ../data/alignments/\*bam -v ../data/var/raw.vcf
+freebayes --ploidy 1 --fasta-reference ../ref/NC_012967.fasta --bam ../data/alignments/*bam -v ../data/var/raw.vcf
 ```
 
 The outcome of this analysis is in [VCF format](http://samtools.github.io/hts-specs/VCFv4.2.pdf). It is designed to be human-readable, but just barely. At its core, it contains evidence for variability at sites throughout the genome (column 6), and what the genotype of each sample is at that site (columns 9 and onward). See sections 1.3 and 1.4 of the VCF format specifications for more information.
@@ -87,8 +87,8 @@ vcftools --vcf ../data/var/raw.vcf --minQ 20 --recode --out ../data/var/filtered
 ### Loading all of the data
 
 - We can view the results of our analysis in IGV by running ```igv.sh``` from the command line
-- Use *Genomes... Load genome from file* to load ```ref/NC_012967.fasta```
-- The load the annotation usnig *File... Load from file*  ```ref/NC_012967.gff```
+- Use *Genomes... Load genome from file* to load ```ref/NC_012967.fa```
+- The load the annotation usnig *File... Load from file*  ```NC_012967.gff```
 - Then load all of the mutant* bam files from ```data/alignments``` and your mutant into IGV.
 - Add the filtered vcf file ```data/var/filtered.recode.vcf```
 
